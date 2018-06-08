@@ -1,0 +1,13 @@
+aws-access-key-id: ACCESS_KEY
+aws-secret-access-key: SECRET_KEY
+aws-bucket: BUCKET
+aws-endpoint: URI_FOR_CUSTOM_BLOB_STORE_DELETE_FOR_S3
+cf-api-url: CF_URI
+cf-username: USERNAME
+cf-password: PASSWORD
+cf-org: ORG
+github-repository: git@github.com:USERNAME/pal-tracker.git
+github-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  PRIVATE_KEY
+  -----END RSA PRIVATE KEY-----
