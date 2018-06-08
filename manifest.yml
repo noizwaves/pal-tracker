@@ -1,0 +1,6 @@
+---
+applications:
+- name: pal-tracker-ananan
+  path: build/libs/pal-tracker.jar
+  env:
+    WELCOME_MESSAGE: Hello from Cloud Foundry
