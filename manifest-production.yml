@@ -1,6 +1,6 @@
 ---
 applications:
-- name: pal-tracker-ananan
+- name: pal-tracker
   path: build/libs/pal-tracker.jar
   routes:
   - route: an-pal-tracker.cfapps.io
