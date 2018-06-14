@@ -8,9 +8,9 @@ public class TimeEntry {
     private long projectId;
     private long userId;
     private LocalDate date;
-    private long hours;
+    private int hours;
 
-    public TimeEntry(long id, long projectId, long userId, LocalDate date, long hours) {
+    public TimeEntry(long id, long projectId, long userId, LocalDate date, int hours) {
         this.id = id;
         this.projectId = projectId;
         this.userId = userId;
@@ -18,7 +18,7 @@ public class TimeEntry {
         this.hours = hours;
     }
 
-    public TimeEntry(long projectId, long userId, LocalDate date, long hours) {
+    public TimeEntry(long projectId, long userId, LocalDate date, int hours) {
         this.projectId = projectId;
         this.userId = userId;
         this.date = date;
@@ -44,7 +44,7 @@ public class TimeEntry {
         return date;
     }
 
-    public long getHours() {
+    public int getHours() {
         return hours;
     }
 
